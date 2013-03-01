@@ -1,7 +1,7 @@
 <?php 
-class Users extends RGNK_Admin_Controller {
+class Users extends Codejab_Admin_Controller {
 	function Users() {
-		parent::RGNK_Admin_Controller();
+		parent::Codejab_Admin_Controller();
 		
 		$this->dbModel = $this->Users;
 

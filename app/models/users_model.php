@@ -1,9 +1,9 @@
 <?php
-class Users_model extends RGNK_Model {
+class Users_model extends Codejab_Model {
 	function Users_model() {
 		$this->dbTable = USERS_DBTABLE;
 		
-		parent::RGNK_Model();
+		parent::Codejab_Model();
 	}
 	
 	function authenticate($user, $pass, $update_last_login = false) {

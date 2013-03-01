@@ -1,7 +1,7 @@
 <?php
-class Users extends RGNK_Controller {
+class Users extends Codejab_Controller {
 	function Users() {
-		parent::RGNK_Controller();
+		parent::Codejab_Controller();
 	}
 	
 	function index() {

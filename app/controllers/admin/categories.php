@@ -1,7 +1,7 @@
 <?php 
-class Categories extends RGNK_Admin_Controller {
+class Categories extends Codejab_Admin_Controller {
 	function Categories() {
-		parent::RGNK_Admin_Controller();
+		parent::Codejab_Admin_Controller();
 		
 		$this->dbModel = $this->Categories;
 

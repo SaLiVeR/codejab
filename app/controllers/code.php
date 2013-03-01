@@ -1,7 +1,7 @@
 <?php
-class Code extends RGNK_Controller {
+class Code extends Codejab_Controller {
 	function Code() {
-		parent::RGNK_Controller();
+		parent::Codejab_Controller();
 		$this->load->model('code_model', 'Code');
 		
 		$d = opendir(dirname(dirname(__FILE__)) . '/third_party/geshi/geshi/');

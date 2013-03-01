@@ -15,7 +15,7 @@ Installation
 Mods / Customizing
 ------------------------------------------
 * Pages functionality is in app/controllers, templates are in app/views
-* Pages derive from base classes in app/core/RGNK_Controller.php
+* Pages derive from base classes in app/core/CODEJAB_Controller.php
 * Database functionality is in app/models
 * If you name a javascript the file the same as the path part of the URL it will auto load jQuery goodness (ie: code/c.js will auto load on the code by categories page), views are named in a similar fashion
 * Styles are in css/main.css

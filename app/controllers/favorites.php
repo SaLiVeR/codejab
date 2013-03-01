@@ -1,7 +1,7 @@
 <?php
-class Favorites extends RGNK_Controller {
+class Favorites extends Codejab_Controller {
 	function Favorites() {
-		parent::RGNK_Controller();
+		parent::Codejab_Controller();
 		$this->load->model('code_model', 'Code');
 	}
 	

@@ -24,11 +24,11 @@ define('ADMIN_ITEMS_PER_PAGE', 20);
 define('MAX_DESC_LENGTH', 70);
 
 // number of paging links to show
-define('RGNK_PAGING_LINKS', 15);
+define('CODEJAB_PAGING_LINKS', 15);
 
 // min and max tag size
-define('RGNK_MAX_TAG_SIZE', 20);
-define('RGNK_MIN_TAG_SIZE', 12);
+define('CODEJAB_MAX_TAG_SIZE', 20);
+define('CODEJAB_MIN_TAG_SIZE', 12);
 
 // template to use for thumbs up
 define('THUMBSUP_TPL', 'mini_thumbs');

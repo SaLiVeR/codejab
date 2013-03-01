@@ -1,12 +1,12 @@
 <?php
-class Categories_model extends RGNK_Model {
+class Categories_model extends Codejab_Model {
 	public $byId = array();
 	public $byName = array();
 	
 	function Categories_model() {
 		$this->dbTable = CATEGORIES_DBTABLE;
 			
-		parent::RGNK_Model();
+		parent::Codejab_Model();
 		$ci =& get_instance();
 		$numFavs = array();
 

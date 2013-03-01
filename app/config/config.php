@@ -104,7 +104,7 @@ $config['enable_hooks'] = FALSE;
 | http://codeigniter.com/user_guide/general/creating_libraries.html
 |
 */
-$config['subclass_prefix'] = 'RGNK_';
+$config['subclass_prefix'] = 'CODEJAB_';
 
 
 /*
@@ -238,7 +238,7 @@ $config['encryption_key'] = 'th15i5my3ncrypt0k3yd4mnt';
 | 'sess_time_to_update'		= how many seconds between CI refreshing Session Information
 |
 */
-$config['sess_cookie_name']		= 'rgnk_sess2';
+$config['sess_cookie_name']		= 'codejab_sess';
 $config['sess_expiration']		= 7200;
 
 $config['sess_expire_on_close']	= TRUE;

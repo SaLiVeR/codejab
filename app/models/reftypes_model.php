@@ -1,5 +1,5 @@
 <?php
-class Reftypes_model extends RGNK_Model {
+class Reftypes_model extends Codejab_Model {
 	public $byId;	
 	public $byModel;
 	public $byName;
@@ -7,7 +7,7 @@ class Reftypes_model extends RGNK_Model {
 	function RefTypes_model() {
 		$this->dbTable = REFTYPES_DBTABLE;
 		
-		parent::RGNK_Model();
+		parent::Codejab_Model();
 		
 		$this->byId = array();
 		$this->byModel = array();

@@ -1,7 +1,7 @@
 <?php
-class Tags extends RGNK_Controller {
+class Tags extends Codejab_Controller {
 	function Tags() {
-		parent::RGNK_Controller();
+		parent::Codejab_Controller();
 	}
 	
 	function index() {

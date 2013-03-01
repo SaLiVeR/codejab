@@ -8,8 +8,8 @@
 <p><? if (!empty($label)): ?><strong><?= $label ?>:</strong>&nbsp;<? endif; ?><span id='tagContainer<?= $ref_id ?>'>
 <?php 
 	//arsort($tags);
-	$max_size = RGNK_MAX_TAG_SIZE; // max font size in pixels
-    $min_size = RGNK_MIN_TAG_SIZE; // min font size in pixels
+	$max_size = CODEJAB_MAX_TAG_SIZE; // max font size in pixels
+    $min_size = CODEJAB_MIN_TAG_SIZE; // min font size in pixels
        
     // largest and smallest array values
 	$max_qty = max(array_values($tags_ct));

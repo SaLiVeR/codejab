@@ -1,7 +1,7 @@
 <?php 
-class Code extends RGNK_Admin_Controller {
+class Code extends Codejab_Admin_Controller {
 	function Code() {
-		parent::RGNK_Admin_Controller();
+		parent::Codejab_Admin_Controller();
 
 		$this->load->model('code_model', 'Code');
 		$this->load->model('categories_model', 'Categories');
